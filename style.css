@@ -1,0 +1,70 @@
+fieldset {
+  background-color:  #89c82e ;
+  border: 5px solid;
+border-color: #3c3c3b;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 30px; 
+  margin: 0 auto; /* center the fieldset horizontally */ 
+  padding: 1.5em; /* add some padding around the fieldset */ 
+width:300px;
+height: 125px;
+  line-height:2;
+text-align: center;
+vertical-align:middle;
+} 
+label input {
+  display: inline-block;
+  width: 90%;
+}
+label {
+  color: #3c3c3b;
+  display: inline-block;
+  text-align: left;
+}
+
+button{
+  width :50%;
+   border-radius: 5px; 
+   background-color:  #ff0065}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+h1 {
+  color:  #3c3c3b;
+  text-align: center;
+}
+form {font-family: Calibri}
+.error {
+  background-color: rgba(255, 0, 0, 0.58);
+  
+  
+}
+
+.errorMessage1 {
+color: rgb(223, 1, 1);
+font-size : 9px;
+line-height: 5px;
+margin-right: inherit;
+width: 100%;
+}
+.errorMessage2 {
+  color: rgb(223, 1, 1);
+  font-size : 9px;
+  line-height: 5px;
+  margin-right: inherit;
+  width: 100%;
+  }
+  .errorMessage3 {
+    color: rgb(223, 1, 1);
+    font-size : 9px;
+    line-height: 5px;
+    margin-right: inherit;
+    width: 100%;
+    }
+
+
+.correct {
+  background-color:  rgba(6, 254, 6, 0.459);
+}

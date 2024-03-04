@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/src/style.css" />
+    <title>Booking Page</title>
+    <script defer type="text/javascript" src="/src/main.js"></script>
+  </head>
+  <body>
+    <h1>BOOK YOUR COURSE NOW!</h1>
+    <form id="myForm" ref="{myForm}">
+      <fieldset>
+        <label for="name"> Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter Your Name"
+          onblur="checkName()"
+        /><br />
+        <div id="errorMessage1" class="errorMessage1"></div>
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter Your Email"
+          onblur="checkEmail()"
+        /><br />
+        <div id="errorMessage2" class="errorMessage2"></div>
+        <label for="cardNumber"> Card:</label>
+        <input
+          type="tel"
+          id="cardNumber"
+          name="cardNumber"
+          inputmode="numeric"
+          maxlength="16"
+          placeholder="Enter a Proxy Credit Card Number"
+          onblur="checkNumber()"
+        /><br />
+        <div id="errorMessage3" class="errorMessage3"></div>
+        <button type="submit" value="submit" onclick="sendMail()">
+          submit
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
